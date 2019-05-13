@@ -12,3 +12,4 @@ CREATE TABLE `HouseSale`(
 );
 
 INSERT INTO `HouseSale`(`desc`, `pic`, `oper`, `ngbor`, `price`, `aloc`) VALUES ("Alan e narigudo", "www.com.br", 0, "Pais dos Nariz Grande", 10, 2);
+'UPDATE `HouseSale` SET desc = '.$house->getDesc().', pic = '.$house->getPic().', oper = '.$house->getOper().', ngbor = '.$house->getNgbor().', price = '.$house->getPrice().', aloc = '.$house->getAloc().' WHERE cod = '.$house->getCod

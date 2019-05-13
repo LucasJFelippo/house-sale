@@ -7,7 +7,8 @@
         private $ngbor;
         private $price;
         private $aloc;
-        public function __construct($desc, $pic = NULL, $oper, $ngbor, $price, $aloc) {
+        public function __construct($cod ,$desc, $pic = NULL, $oper, $ngbor, $price, $aloc) {
+            $this->cod = $cod;
             $this->desc = $desc;
             $this->pic = $pic;
             $this->oper = $oper;
